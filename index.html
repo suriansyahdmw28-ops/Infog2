@@ -6,6 +6,8 @@
     <title>Infografis: Peran dan Kedudukan Perawat</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN for stable icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
         body {
@@ -26,16 +28,17 @@
     <div class="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden">
         
         <!-- HEADER: Logo, Judul, Kalimat Utama, dan Nama -->
-        <header class="p-8 sm:p-12 bg-gradient-to-br from-blue-600 to-indigo-700 text-white rounded-t-3xl text-center relative">
+        <header class="p-6 sm:p-8 bg-gradient-to-br from-blue-600 to-indigo-700 text-white rounded-t-3xl text-center relative">
             <!-- Logos di sudut-sudut -->
             <div class="absolute top-4 left-4 flex items-center">
                 <!-- Logo SKPD di pojok kiri -->
                 <img src="https://raw.githubusercontent.com/suriansyahdmw28-ops/Infog2/main/5.png" alt="Logo SKPD" class="h-16 w-auto">
             </div>
             <div class="absolute top-4 right-4 flex space-x-2 items-center">
-                <!-- Logo BerAKHLAK dan Bangga Melayani Bangsa dipisahkan -->
-                <img src="https://raw.githubusercontent.com/suriansyahdmw28-ops/Infog2/main/%E2%80%94Pngtree%E2%80%94logo%20berakhlak%20png%20dan%20bangga_8081466%20(1).png" alt="Logo BerAKHLAK" class="h-16 w-auto">
-                <img src="https://raw.githubusercontent.com/suriansyahdmw28-ops/Infog2/main/%E2%80%94Pngtree%E2%80%94logo%20dan%20tagline%20berakhlak%20kemenpanrb_7286874%20(1).png" alt="Logo Bangga Melayani Bangsa" class="h-16 w-auto">
+                <!-- Logo BerAKHLAK menggunakan URL raw, ukuran diperbesar menjadi h-24 -->
+                <img src="https://raw.githubusercontent.com/suriansyahdmw28-ops/Infog2/main/%E2%80%94Pngtree%E2%80%94logo%20berakhlak%20png%20dan%20bangga_8081466%20(1).png" alt="Logo BerAKHLAK" class="h-24 w-auto">
+                <!-- Logo Bangga Melayani Bangsa menggunakan URL raw, ukuran diperbesar menjadi h-24 -->
+                <img src="https://raw.githubusercontent.com/suriansyahdmw28-ops/Infog2/main/%E2%80%94Pngtree%E2%80%94logo%20dan%20tagline%20berakhlak%20kemenpanrb_7286874%20(1).png" alt="Logo Bangga Melayani Bangsa" class="h-24 w-auto">
             </div>
             
             <!-- Konten tengah, tambahkan padding untuk memberi ruang pada logo -->
@@ -46,130 +49,137 @@
                     </h1>
                 </div>
                 <!-- Main Sentence and Name -->
-                <p class="mt-4 text-sm sm:text-lg opacity-80 max-w-2xl mx-auto">
+                <p class="mt-2 text-sm sm:text-lg opacity-80 max-w-2xl mx-auto">
                     Realizing Smart Governance through the foundation of ASN Management and the 8 characteristics of Smart ASN.
                 </p>
-                <h2 class="text-xl sm:text-2xl font-semibold opacity-90 mt-2">Suriansyah, S. Kep., Ners</h2>
+                <h2 class="text-xl sm:text-2xl font-semibold opacity-90 mt-1">Suriansyah, S. Kep., Ners</h2>
             </div>
         </header>
 
-        <main class="p-6 sm:p-10 space-y-10">
+        <main class="p-4 sm:p-6 space-y-6">
             
             <!-- ASN Management Section -->
-            <section class="bg-gray-50 p-6 sm:p-8 rounded-2xl shadow-inner">
+            <section class="bg-gray-50 p-4 sm:p-6 rounded-2xl shadow-inner">
                 <h2 class="text-2xl sm:text-3xl font-bold text-gray-800">
                     ASN Management as the Foundation
                 </h2>
                 <p class="mt-2 text-sm sm:text-base text-gray-600">
                     Sistem manajemen yang profesional untuk melahirkan ASN yang berkualitas dan adaptif.
                 </p>
-                <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="bg-white p-4 rounded-xl shadow-md text-center">
-                        <div class="text-3xl mb-2 text-indigo-500">📈</div>
-                        <h3 class="font-bold">Competency Development</h3>
-                        <p class="text-sm text-gray-600">Program pelatihan untuk meningkatkan <i>digital and clinical skills</i>.</p>
+                <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="bg-white p-3 rounded-xl shadow-md text-center">
+                        <!-- Font Awesome icon -->
+                        <div class="text-3xl mb-1 text-indigo-500"><i class="fa-solid fa-arrow-trend-up"></i></div>
+                        <h3 class="font-bold text-sm">Competency Development</h3>
+                        <p class="text-xs text-gray-600">Program pelatihan untuk meningkatkan <i>digital and clinical skills</i>.</p>
                     </div>
-                    <div class="bg-white p-4 rounded-xl shadow-md text-center">
-                        <div class="text-3xl mb-2 text-indigo-500">📜</div>
-                        <h3 class="font-bold">Performance Accountability</h3>
-                        <p class="text-sm text-gray-600">Penilaian kinerja yang objektif untuk meningkatkan kualitas layanan.</p>
+                    <div class="bg-white p-3 rounded-xl shadow-md text-center">
+                        <!-- Font Awesome icon -->
+                        <div class="text-3xl mb-1 text-indigo-500"><i class="fa-solid fa-scroll"></i></div>
+                        <h3 class="font-bold text-sm">Performance Accountability</h3>
+                        <p class="text-xs text-gray-600">Penilaian kinerja yang objektif untuk meningkatkan kualitas layanan.</p>
                     </div>
-                    <div class="bg-white p-4 rounded-xl shadow-md text-center">
-                        <div class="text-3xl mb-2 text-indigo-500">👨‍💼</div>
-                        <h3 class="font-bold">Career Path</h3>
-                        <p class="text-sm text-gray-600">Jalur karier yang jelas untuk mendukung profesionalisme.</p>
+                    <div class="bg-white p-3 rounded-xl shadow-md text-center">
+                        <!-- Font Awesome icon -->
+                        <div class="text-3xl mb-1 text-indigo-500"><i class="fa-solid fa-user-tie"></i></div>
+                        <h3 class="font-bold text-sm">Career Path</h3>
+                        <p class="text-xs text-gray-600">Jalur karier yang jelas untuk mendukung profesionalisme.</p>
                     </div>
                 </div>
             </section>
 
             <!-- Smart ASN Section -->
-            <section class="bg-green-50 p-6 sm:p-8 rounded-2xl shadow-inner">
+            <section class="bg-green-50 p-4 sm:p-6 rounded-2xl shadow-inner">
                 <h2 class="text-2xl sm:text-3xl font-bold text-green-800">
                     The 8 Characteristics of Smart ASN
                 </h2>
                 <p class="mt-2 text-sm sm:text-base text-gray-600">
                     Perawat yang Smart memiliki 8 ciri khas ini, siap menghadapi tantangan global dan era digital.
                 </p>
-                <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                    <div class="bg-white p-4 rounded-xl shadow-md text-center">
-                        <div class="text-3xl mb-2">✅</div>
-                        <h3 class="font-bold">Integrity</h3>
-                        <p class="text-xs text-gray-600">Jujur dalam dokumentasi digital dan menjaga kerahasiaan pasien.</p>
+                <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2">
+                    <div class="bg-white p-2 rounded-xl shadow-md text-center">
+                        <div class="text-2xl mb-1"><i class="fa-solid fa-circle-check"></i></div>
+                        <h3 class="font-bold text-sm">Integrity</h3>
+                        <p class="text-xs text-gray-600">Jujur dalam dokumentasi digital.</p>
                     </div>
-                    <div class="bg-white p-4 rounded-xl shadow-md text-center">
-                        <div class="text-3xl mb-2">🇮🇩</div>
-                        <h3 class="font-bold">Nationalism</h3>
-                        <p class="text-xs text-gray-600">Pelayanan yang adil dan merata di seluruh wilayah.</p>
+                    <div class="bg-white p-2 rounded-xl shadow-md text-center">
+                        <div class="text-2xl mb-1"><i class="fa-solid fa-flag"></i></div>
+                        <h3 class="font-bold text-sm">Nationalism</h3>
+                        <p class="text-xs text-gray-600">Pelayanan yang adil dan merata.</p>
                     </div>
-                    <div class="bg-white p-4 rounded-xl shadow-md text-center">
-                        <div class="text-3xl mb-2">🎓</div>
-                        <h3 class="font-bold">Professionalism</h3>
-                        <p class="text-xs text-gray-600">Tindakan keperawatan sesuai standar profesi dan etika.</p>
+                    <div class="bg-white p-2 rounded-xl shadow-md text-center">
+                        <div class="text-2xl mb-1"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <h3 class="font-bold text-sm">Professionalism</h3>
+                        <p class="text-xs text-gray-600">Tindakan sesuai standar profesi.</p>
                     </div>
-                    <div class="bg-white p-4 rounded-xl shadow-md text-center">
-                        <div class="text-3xl mb-2">🌐</div>
-                        <h3 class="font-bold">Global Perspective</h3>
-                        <p class="text-xs text-gray-600">Mengadopsi praktik keperawatan terbaik internasional.</p>
+                    <div class="bg-white p-2 rounded-xl shadow-md text-center">
+                        <div class="text-2xl mb-1"><i class="fa-solid fa-earth-asia"></i></div>
+                        <h3 class="font-bold text-sm">Global Perspective</h3>
+                        <p class="text-xs text-gray-600">Mengadopsi praktik terbaik internasional.</p>
                     </div>
-                    <div class="bg-white p-4 rounded-xl shadow-md text-center">
-                        <div class="text-3xl mb-2">💻</div>
-                        <h3 class="font-bold">IT & Foreign Language</h3>
-                        <p class="text-xs text-gray-600">Mahir menggunakan teknologi dan berkomunikasi dengan pasien asing.</p>
+                    <div class="bg-white p-2 rounded-xl shadow-md text-center">
+                        <div class="text-2xl mb-1"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3 class="font-bold text-sm">IT & Foreign Language</h3>
+                        <p class="text-xs text-gray-600">Mahir teknologi dan bahasa asing.</p>
                     </div>
-                    <div class="bg-white p-4 rounded-xl shadow-md text-center">
-                        <div class="text-3xl mb-2">🤝</div>
-                        <h3 class="font-bold">Hospitality</h3>
-                        <p class="text-xs text-gray-600">Memberikan pelayanan yang ramah dan penuh empati.</p>
+                    <div class="bg-white p-2 rounded-xl shadow-md text-center">
+                        <div class="text-2xl mb-1"><i class="fa-solid fa-face-smile"></i></div>
+                        <h3 class="font-bold text-sm">Hospitality</h3>
+                        <p class="text-xs text-gray-600">Pelayanan yang ramah dan empatik.</p>
                     </div>
-                    <div class="bg-white p-4 rounded-xl shadow-md text-center">
-                        <div class="text-3xl mb-2">📞</div>
-                        <h3 class="font-bold">Networking</h3>
-                        <p class="text-xs text-gray-600">Membangun kolaborasi kuat dengan tim medis dan pihak terkait.</p>
+                    <div class="bg-white p-2 rounded-xl shadow-md text-center">
+                        <div class="text-2xl mb-1"><i class="fa-solid fa-network-wired"></i></div>
+                        <h3 class="font-bold text-sm">Networking</h3>
+                        <p class="text-xs text-gray-600">Kolaborasi kuat dengan tim medis.</p>
                     </div>
-                    <div class="bg-white p-4 rounded-xl shadow-md text-center">
-                        <div class="text-3xl mb-2">💡</div>
-                        <h3 class="font-bold">Entrepreneurship</h3>
-                        <p class="text-xs text-gray-600">Inisiatif untuk mengusulkan inovasi guna perbaikan pelayanan.</p>
+                    <div class="bg-white p-2 rounded-xl shadow-md text-center">
+                        <div class="text-2xl mb-1"><i class="fa-solid fa-lightbulb"></i></div>
+                        <h3 class="font-bold text-sm">Entrepreneurship</h3>
+                        <p class="text-xs text-gray-600">Inisiatif inovasi pelayanan.</p>
                     </div>
                 </div>
             </section>
 
             <!-- Peran & Kedudukan Section (Tanpa Gambar) -->
-            <section class="bg-yellow-50 p-6 sm:p-8 rounded-2xl shadow-inner">
+            <section class="bg-yellow-50 p-4 sm:p-6 rounded-2xl shadow-inner">
                 <div class="w-full">
                     <h2 class="text-2xl sm:text-3xl font-bold text-yellow-800">
                         Role & Position of Nurses in Smart Governance
                     </h2>
                     <p class="mt-2 text-sm sm:text-base text-gray-600">
-                        Berdasarkan Peraturan Menteri PANRB No. 35 Tahun 2019, Perawat berkedudukan sebagai pelaksana teknis fungsional Pelayanan Keperawatan. Peran ini sangat krusial dalam mewujudkan tata kelola pemerintahan yang cerdas melalui tugas-tugas utama ini.
+                        Berdasarkan Peraturan Menteri PANRB No. 35 Tahun 2019, Perawat berkedudukan sebagai pelaksana teknis fungsional Pelayanan Keperawatan.
                     </p>
-                    <div class="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-4">
-                        <div class="bg-white p-4 rounded-xl shadow-md flex items-center gap-4">
-                            <div class="text-3xl">📝</div>
+                    <div class="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-3">
+                        <div class="bg-white p-3 rounded-xl shadow-md flex items-center gap-3">
+                            <!-- Font Awesome icon -->
+                            <div class="text-2xl"><i class="fa-solid fa-file-waveform"></i></div>
                             <div>
-                                <h3 class="font-bold">Asuhan Keperawatan</h3>
-                                <p class="text-sm text-gray-600">Melaksanakan pelayanan yang terintegrasi dengan teknologi digital untuk efisiensi dan mengadopsi praktik berbasis bukti.</p>
+                                <h3 class="font-bold text-sm">Asuhan Keperawatan</h3>
+                                <p class="text-xs text-gray-600">Pelayanan terintegrasi teknologi digital dan praktik berbasis bukti.</p>
                             </div>
                         </div>
-                        <div class="bg-white p-4 rounded-xl shadow-md flex items-center gap-4">
-                            <div class="text-3xl">📊</div>
+                        <div class="bg-white p-3 rounded-xl shadow-md flex items-center gap-3">
+                            <!-- Font Awesome icon -->
+                            <div class="text-2xl"><i class="fa-solid fa-chart-line"></i></div>
                             <div>
-                                <h3 class="font-bold">Pengelolaan Keperawatan</h3>
-                                <p class="text-sm text-gray-600">Mengelola data pasien secara akuntabel dan transparan, membandingkan dengan standar untuk perbaikan kualitas.</p>
+                                <h3 class="font-bold text-sm">Pengelolaan Keperawatan</h3>
+                                <p class="text-xs text-gray-600">Mengelola data pasien akuntabel dan transparan.</p>
                             </div>
                         </div>
-                        <div class="bg-white p-4 rounded-xl shadow-md flex items-center gap-4">
-                            <div class="text-3xl">💻</div>
+                        <div class="bg-white p-3 rounded-xl shadow-md flex items-center gap-3">
+                            <!-- Font Awesome icon -->
+                            <div class="text-2xl"><i class="fa-solid fa-user-gear"></i></div>
                             <div>
-                                <h3 class="font-bold">Pendorong Layanan Digital</h3>
-                                <p class="text-sm text-gray-600">Menjadi garda terdepan dalam implementasi Rekam Medis Elektronik (RME) yang efisien, menggantikan sistem manual yang rentan kesalahan.</p>
+                                <h3 class="font-bold text-sm">Pendorong Layanan Digital</h3>
+                                <p class="text-xs text-gray-600">Garda terdepan implementasi Rekam Medis Elektronik (RME).</p>
                             </div>
                         </div>
-                        <div class="bg-white p-4 rounded-xl shadow-md flex items-center gap-4">
-                            <div class="text-3xl">💡</div>
+                        <div class="bg-white p-3 rounded-xl shadow-md flex items-center gap-3">
+                            <!-- Font Awesome icon -->
+                            <div class="text-2xl"><i class="fa-solid fa-lightbulb"></i></div>
                             <div>
-                                <h3 class="font-bold">Agen Inovasi</h3>
-                                <p class="text-sm text-gray-600">Mengusulkan solusi kreatif berbasis teknologi untuk perbaikan proses kerja, sebagai pembanding dari metode konvensional.</p>
+                                <h3 class="font-bold text-sm">Agen Inovasi</h3>
+                                <p class="text-xs text-gray-600">Mengusulkan solusi kreatif berbasis teknologi.</p>
                             </div>
                         </div>
                     </div>
@@ -177,77 +187,85 @@
             </section>
 
             <!-- Smart Governance Section -->
-            <section class="bg-blue-50 p-6 sm:p-8 rounded-2xl shadow-inner">
+            <section class="bg-blue-50 p-4 sm:p-6 rounded-2xl shadow-inner">
                 <h2 class="text-2xl sm:text-3xl font-bold text-blue-800">
                     Smart Governance: The Ultimate Goal
                 </h2>
                 <p class="mt-2 text-sm sm:text-base text-gray-600">
-                    Dengan menerapkan 8 ciri Smart ASN, Perawat berkontribusi langsung pada terwujudnya tata kelola pemerintahan yang cerdas.
+                    Dengan 8 ciri Smart ASN, Perawat berkontribusi pada tata kelola pemerintahan yang cerdas.
                 </p>
-                <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div class="bg-white p-4 rounded-xl shadow-md flex items-center gap-4">
-                        <div class="text-3xl">🚀</div>
+                <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <div class="bg-white p-3 rounded-xl shadow-md flex items-center gap-3">
+                        <!-- Font Awesome icon -->
+                        <div class="text-2xl"><i class="fa-solid fa-rocket"></i></div>
                         <div>
-                            <h3 class="font-bold">Pelayanan Publik Digital</h3>
-                            <p class="text-sm text-gray-600">Layanan yang cepat, mudah, dan transparan, jauh lebih efisien dibandingkan metode konvensional.</p>
+                            <h3 class="font-bold text-sm">Pelayanan Publik Digital</h3>
+                            <p class="text-xs text-gray-600">Layanan cepat, mudah, dan transparan.</p>
                         </div>
                     </div>
-                    <div class="bg-white p-4 rounded-xl shadow-md flex items-center gap-4">
-                        <div class="text-3xl">🛡️</div>
+                    <div class="bg-white p-3 rounded-xl shadow-md flex items-center gap-3">
+                        <!-- Font Awesome icon -->
+                        <div class="text-2xl"><i class="fa-solid fa-shield-halved"></i></div>
                         <div>
-                            <h3 class="font-bold">Kualitas dan Akuntabilitas</h3>
-                            <p class="text-sm text-gray-600">Peningkatan mutu layanan yang terukur dan dapat dipertanggungjawabkan, melebihi standar sebelumnya.</p>
+                            <h3 class="font-bold text-sm">Kualitas dan Akuntabilitas</h3>
+                            <p class="text-xs text-gray-600">Peningkatan mutu layanan yang terukur.</p>
                         </div>
                     </div>
-                    <div class="bg-white p-4 rounded-xl shadow-md flex items-center gap-4">
-                        <div class="text-3xl">🤝</div>
+                    <div class="bg-white p-3 rounded-xl shadow-md flex items-center gap-3">
+                        <!-- Font Awesome icon -->
+                        <div class="text-2xl"><i class="fa-solid fa-handshake"></i></div>
                         <div>
-                            <h3 class="font-bold">Kolaborasi Efektif</h3>
-                            <p class="text-sm text-gray-600">Sinergi antar pihak untuk pelayanan terpadu, mengurangi silo kerja antar unit.</p>
+                            <h3 class="font-bold text-sm">Kolaborasi Efektif</h3>
+                            <p class="text-xs text-gray-600">Sinergi antar pihak untuk pelayanan terpadu.</p>
                         </div>
                     </div>
-                    <div class="bg-white p-4 rounded-xl shadow-md flex items-center gap-4">
-                        <div class="text-3xl">👨‍👩‍👧‍👦</div>
+                    <div class="bg-white p-3 rounded-xl shadow-md flex items-center gap-3">
+                        <!-- Font Awesome icon -->
+                        <div class="text-2xl"><i class="fa-solid fa-people-group"></i></div>
                         <div>
-                            <h3 class="font-bold">Kesejahteraan Masyarakat</h3>
-                            <p class="text-sm text-gray-600">Menciptakan ekosistem kesehatan yang merata dan adaptif terhadap perubahan global.</p>
+                            <h3 class="font-bold text-sm">Kesejahteraan Masyarakat</h3>
+                            <p class="text-xs text-gray-600">Ekosistem kesehatan merata dan adaptif.</p>
                         </div>
                     </div>
                 </div>
             </section>
             
-            <!-- Data Section -->
-            <section class="p-6 sm:p-8 rounded-2xl bg-indigo-50 shadow-inner">
+            <!-- Key Data Section -->
+            <section class="p-4 sm:p-6 rounded-2xl bg-indigo-50 shadow-inner">
                 <h2 class="text-2xl sm:text-3xl font-bold text-indigo-800 text-center">
                     Key Data for Smart Governance (2025)
                 </h2>
-                <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+                <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
                     <div>
                         <p class="text-3xl sm:text-4xl font-extrabold text-indigo-600">92%</p>
                         <p class="mt-1 text-sm sm:text-base font-semibold">Rumah Sakit Terintegrasi SATUSEHAT</p>
+                        <!-- Keterangan dikembalikan -->
                         <p class="mt-1 text-xs text-gray-600 italic">Target 100% integrasi platform RME nasional masih belum tercapai. Tantangan terbesar adalah kualitas dan kelengkapan data yang dikirimkan. (Sumber: GovInsider, 2025)</p>
                     </div>
                     <div>
                         <p class="text-3xl sm:text-4xl font-extrabold text-indigo-600">2.5</p>
                         <p class="mt-1 text-sm sm:text-base font-semibold">Rasio Perawat per 1000 Penduduk</p>
+                        <!-- Keterangan dikembalikan -->
                         <p class="mt-1 text-xs text-gray-600 italic">Angka ini masih di bawah standar ideal WHO, yaitu 4 per 1000 penduduk. Ini menunjukkan perlunya peningkatan jumlah tenaga perawat untuk layanan yang lebih berkualitas. (Sumber: Kemenkes, 2023 & PPNI)</p>
                     </div>
                     <div>
                         <p class="text-3xl sm:text-4xl font-extrabold text-indigo-600">Belum Merata</p>
                         <p class="mt-1 text-sm sm:text-base font-semibold">Pencapaian Standar Pelayanan Minimal (SPM)</p>
+                        <!-- Keterangan dikembalikan -->
                         <p class="mt-1 text-xs text-gray-600 italic">Meskipun sudah ada perbaikan, pencapaian SPM masih belum merata di seluruh daerah akibat tantangan sumber daya manusia dan infrastruktur. (Sumber: Dinas Kesehatan Kab. Kapuas, 2025)</p>
                     </div>
                     <div>
                         <p class="text-3xl sm:text-4xl font-extrabold text-indigo-600">96.3%</p>
                         <p class="mt-1 text-sm sm:text-base font-semibold">Cakupan Kepesertaan JKN</p>
+                        <!-- Keterangan dikembalikan -->
                         <p class="mt-1 text-xs text-gray-600 italic">Target Universal Health Coverage (UHC) sebesar 100% masih harus dikejar, terutama untuk memastikan pemerataan akses kesehatan di seluruh lapisan masyarakat. (Sumber: Perpres Nomor 12 Tahun 2025)</p>
                     </div>
                 </div>
             </section>
 
             <!-- Komitmen Section -->
-            <section class="p-6 sm:p-8 rounded-2xl bg-indigo-50 shadow-inner">
-                <div class="mt-8 p-6 bg-white rounded-xl shadow-md text-center">
+            <section class="p-4 sm:p-6 rounded-2xl bg-blue-50 shadow-inner">
+                <div class="p-4 bg-white rounded-xl shadow-md text-center">
                     <p class="text-sm italic text-gray-700">
                         "Saya berkomitmen menjadi agen perubahan yang berintegritas dan terus belajar demi terwujudnya Smart Governance untuk kesehatan masyarakat yang lebih baik."
                     </p>
@@ -256,7 +274,7 @@
         </main>
         
         <!-- FOOTER -->
-        <footer class="text-center p-6 sm:p-8 bg-blue-700 text-white text-xs rounded-b-3xl">
+        <footer class="text-center p-4 sm:p-6 bg-blue-700 text-white text-xs rounded-b-3xl">
             © 2025 - Dibuat untuk mendukung pemahaman peran ASN dalam Smart Governance.
         </footer>
     </div>
